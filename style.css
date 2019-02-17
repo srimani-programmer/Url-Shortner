@@ -1,0 +1,41 @@
+.main_body{
+    background-color: #f7f1e3;
+}
+
+.main_heading{
+    text-align: center;
+    color: #e67e22; 
+    font-family: 'Fredoka One', cursive;
+    font-size: 450%;
+}
+
+.url{
+    width:48%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 9px 14px;
+    color: #7f898e;
+    border-radius: 40px;
+    border:none;
+    box-shadow: 0px 1px 2px #fff;
+    text-align: center;
+}
+
+.but{
+    width:8%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    background: #3498db;
+    color: white;
+    border-radius: 40px;
+    border:none;
+    box-shadow: 0px 1px 2px #fff;
+    text-align: center;
+}
+
+.output{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
