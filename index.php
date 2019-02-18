@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link rel="icon" type="icon/png" href="logo1.png">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+
+
     <link rel="stylesheet" href="style.css">
     <title>URL Shortner.</title>
 </head>
@@ -13,13 +17,21 @@
 
     <h1 class="main_heading">Url Shortner</h1>
     <br>
-    <form action="backend.php" method="POST">
+    <h1 class="caption">ENJOY THE EXPERIENCE WITH TINY URL API.</h1><br>
+    <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">  
         <center>
             <div class="search_div">
-                    <input type="text" name="input" class="url" placeholder="Enter URL To Create Short URL" autocomplete="off" required>
-                    <button class="but">Shorten</button>
-            </div>
-        </center>      
+                <input type="text" name="input" class="urlsearch" placeholder="Paste a link to shorten it" autocomplete="off" required>
+                <button class="but">SHORTEN</button>
+            </div>      
+
+            <h1 class="output" id="output">
+            <?php
+            include('backend.php');
+            ?>
+            </h1>
+        </center>
+
     </form>
     
 </body>
