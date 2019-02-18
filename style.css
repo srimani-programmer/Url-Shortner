@@ -1,41 +1,50 @@
 .main_body{
-    background-color: #f7f1e3;
+    background: url('background.jpg');
+    background-size: cover;
 }
 
 .main_heading{
     text-align: center;
-    color: #e67e22; 
-    font-family: 'Fredoka One', cursive;
+    color: #F62459; 
+    font-family: 'Aclonica', sans-serif;
     font-size: 450%;
 }
 
-.url{
+.caption{
+    text-align: center;
+    color: #3CC8B1;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.urlsearch{
     width:48%;
     height: 50px;
     font-size: 18px;
     font-weight: 300;
     padding: 9px 14px;
     color: #7f898e;
-    border-radius: 40px;
+    border-radius: 10px;
     border:none;
     box-shadow: 0px 1px 2px #fff;
-    text-align: center;
 }
 
 .but{
-    width:8%;
-    height: 50px;
+    width:125px;
+    height: 65px;
     font-size: 18px;
     font-weight: 300;
     background: #3498db;
     color: white;
-    border-radius: 40px;
+    border-radius: 10px;
     border:none;
-    box-shadow: 0px 1px 2px #fff;
     text-align: center;
 }
 
 .output{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 80px;
+    color: white;
+    display: none;
 }
+
